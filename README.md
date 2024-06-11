@@ -1,7 +1,6 @@
 # website-aep
 
-Website para apresentação da empresa 4Tech
-O site mostra projetos realizados pela empresa
+Website para apresentação da empresa 4Tech<br>O site mostra projetos realizados pela empresa
 
 Autores: Guilherme Rodrigues, Vitor Milanezi
 
