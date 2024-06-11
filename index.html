@@ -333,13 +333,13 @@
                 telefone = telefone.substring(0, 11);
             }
 
-            // Formata o telefone se tiver 11 dígitos
+            // Formata o telefone se tiver 11 dígitos (celular)
             if (telefone.length === 11) {
                 // Insere os parênteses, espaço e traço nos lugares corretos
                 telefone = telefone.replace(/(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
             }
 
-            // Formata o telefone se tiver 11 dígitos
+            // Formata o telefone se tiver 10 dígitos (telefone)
             if (telefone.length === 10) {
                 // Insere os parênteses, espaço e traço nos lugares corretos
                 telefone = telefone.replace(/(\d{2})(\d{4})(\d{4})/, '($1) $2-$3');
